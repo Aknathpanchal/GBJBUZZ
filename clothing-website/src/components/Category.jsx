@@ -6,7 +6,7 @@ const Category = () => {
     <section className="section bg-secondary" id="category" style={{display:"flex",flexDirection:'column'}}>
       
       <div>
-      <h2 style={{fontSize:'5rem'}}>Womens Categories</h2>
+      <h2 style={{fontSize:'5vh'}}>Womens Categories</h2>
       </div>
       <div>
       <Categories/>

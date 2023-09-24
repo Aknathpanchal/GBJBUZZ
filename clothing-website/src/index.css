@@ -121,14 +121,22 @@ section{
 }
 
 
-.shree:hover div{
+/* .shree:hover div{
 width: 8rem;
 }
 
 .shree div:hover{
   width: 60rem;
-  }
+  } */
 
+
+  .shree:hover div{
+    width: 15%;
+    }
+    
+    .shree div:hover{
+      width: 90%;
+      }
 
   .Logo{
     font-size: 1.7rem;
@@ -138,3 +146,40 @@ width: 8rem;
     cursor: pointer;
     padding: 0 10vh;
   }
+
+
+
+    .Categories_container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      justify-content: space-between;
+    }
+    
+    /* Mobile styles using media queries */
+    @media (max-width: 768px) {
+      .Categories_container {
+        display: block;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .shree{
+        display: block;
+      }
+      .shree:hover div{
+        width: 90%;
+        }
+        
+        .shree div{
+          width: 90%;
+          }
+    }
+  
+
+    @media only screen and (max-width: 380px){
+      .iAjuGS {
+        height: 100% !important;
+    }
+    }
+

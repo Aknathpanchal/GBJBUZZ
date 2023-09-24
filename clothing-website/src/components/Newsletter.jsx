@@ -12,12 +12,12 @@ const Container = styled.div`
   flex-direction: column;
 `;
 const Title = styled.h1`
-  font-size: 70px;
+  font-size: 7vh;
   margin-bottom: 20px;
 `;
 
 const Desc = styled.div`
-  font-size: 24px;
+  font-size: 2.4vh;
   font-weight: 300;
   margin-bottom: 20px;
   ${mobile({ textAlign: "center" })}
