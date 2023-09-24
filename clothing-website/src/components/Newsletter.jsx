@@ -20,6 +20,8 @@ const Desc = styled.div`
   font-size: 2.4vh;
   font-weight: 300;
   margin-bottom: 20px;
+  text-align: center;
+  line-height: normal;
   ${mobile({ textAlign: "center" })}
 
 `;

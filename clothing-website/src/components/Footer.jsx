@@ -6,7 +6,7 @@ import { mobile } from "../responsive";
 const Container = styled.div`
   display: flex;
   background-color: grey;
-  ${mobile({ flexDirection: "column" })}
+  ${mobile({ display:"block" })}
 `;
 
 const Left = styled.div`
@@ -64,7 +64,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
-  ${mobile({ backgroundColor: "#fff8f8" })}
+  ${mobile({ backgroundColor: "grey" })}
 
 `;
 

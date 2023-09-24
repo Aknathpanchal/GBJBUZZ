@@ -165,14 +165,19 @@ width: 8rem;
 
     @media (max-width: 500px) {
       .shree{
+        margin: auto;
         display: block;
       }
       .shree:hover div{
-        width: 90%;
+        width: 100%;
         }
         
         .shree div{
-          width: 90%;
+          width: 100%;
+          }
+
+          .kjZTMS{
+            display: block !important;
           }
     }
   
